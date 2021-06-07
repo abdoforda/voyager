@@ -46,7 +46,7 @@
         </div>
     </div>
     <style>
-        .dash{
+        .dash{ 
             border: 1px solid #ddd;
             border-radius: 6px;
             padding: 20px;
