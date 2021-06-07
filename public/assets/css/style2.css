@@ -1,0 +1,59 @@
+pre{
+    direction: ltr;
+}
+
+footer pre,
+.zoomIn pre{
+    color: #fff;
+}
+.alert-success{
+    font-size: 13px;
+}
+.relative{
+    position: relative;
+}
+.span_cart{
+    position: absolute;
+    top: -14px;
+    right: -14px;
+    background: #fd9929;
+    padding: 0px 8px;
+    border-radius: 16px;
+    box-shadow: 2px 2px 7px #00000026;
+}
+.product_img_checkout{
+    width: 60px;
+    float: right;
+    height: 48px;
+    object-fit: cover;
+}
+.span_checkout{
+    float: right;
+    margin-right: 12px;
+}
+[class^=swal2] {
+    font-size: 14px;
+}
+
+.slide pre {
+    font-size: 22px;
+    color: #fff;
+    padding: 10px 0;
+    font-family: 'Cairo', sans-serif;
+}
+
+p img{
+    width: auto;
+}
+.evalu{
+    position: relative;
+}
+
+.evalu span{
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    border-radius: 10px;
+    background: #d47000;
+    padding: 0px 7px;
+}
