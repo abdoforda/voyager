@@ -35,15 +35,6 @@
                             <input name="password_confirmation" type="password" class="form-control" placeholder=" تأكيد كلمة المرور">
                         </div>
 
-                        <div class="form-group">
-                            <label for="form-name">
-                                
-                                <input name="confirm" type="checkbox" class="form-control" style='display: table; width: 20px; float: right; height: 20px; margin-left: 8px;' />
-                                
-                                 الموافقة علي <a href="/page/الشروط%20والأحكام">الشروط والأحكام</a></label>
-                            
-                        </div>
-
 
                         <!-- Submit button -->
                         <button type="submit" class="btn btn-main btn-block mb-4">دخول</button>

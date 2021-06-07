@@ -1,0 +1,9 @@
+{
+    "default" : "training",
+    "options" : {
+        "training": "برامج تدريبية",
+        "bags": "حقائب",
+        "feasibility": "دراسات جدوي",
+        "products": "منتجات"
+    }
+}

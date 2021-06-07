@@ -148,12 +148,12 @@ return [
         ],
 
         'widgets' => [
-            'App\\Widgets\\Feasibility',
-            'App\\Widgets\\Order',
-            'App\\Widgets\\Coache',
-            'App\\Widgets\\Advisor',
-            'App\\Widgets\\Partner',
-            'App\\Widgets\\Employee',
+            //'App\\Widgets\\Feasibility',
+            //'App\\Widgets\\Order',
+            //'App\\Widgets\\Coache',
+            //'App\\Widgets\\Advisor',
+            //'App\\Widgets\\Partner',
+            //'App\\Widgets\\Employee',
         ],
 
     ],

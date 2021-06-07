@@ -1,10 +1,3 @@
-@php
-if(isset($dataTypeContent->status)){
-    $dataTypeContent->status = "old";
-    $dataTypeContent->save();
-}
-
-@endphp
 @extends('voyager::master')
 
 @section('page_title', __('voyager::generic.view').' '.$dataType->getTranslatedAttribute('display_name_singular'))

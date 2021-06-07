@@ -82,16 +82,9 @@
         <br>
         <div class="row">
             <div class="col-sm-9">
-                @if ($product->video_length != '')
                 <div>
-                    <h5> مدة @if ($product->type == 'programs')
-                        البرنامج
-                    @else
-                        الحقيبة
-                    @endif : {{ $product->video_length }} </h5>
+                    <h5> مدة البرنامج : {{ $product->video_length }} </h5>
                 </div>
-                @endif
-                
             </div>
             <div class="col-sm-3">
                 <div>
@@ -173,7 +166,5 @@
             success('تم إرسال تقيمك');
         });
     });
-    document.addEventListener('contextmenu', event => event.preventDefault());
-
 </script>
 @endsection

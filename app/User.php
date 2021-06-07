@@ -2,11 +2,9 @@
 
 namespace App;
 
-use App\Mail\OrderMail;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
-use Illuminate\Support\Facades\Mail;
 
 class User extends \TCG\Voyager\Models\User
 {
@@ -66,9 +64,8 @@ class User extends \TCG\Voyager\Models\User
             
             $cart->delete();
         }
-        Mail::to("abdelrahmaan3@gmail.com")->send(new OrderMail($order->id));
-        return  $order;
         
+        return  $order;
     }
 
     public function getAllOrder(){

@@ -199,11 +199,6 @@
                                                                             placeholder=" تأكيد كلمة المرور">
                                                                     </div>
 
-                                                                    <div class="form-group">
-                                                                        <label for="form-name"> الموافقة علي الشروط والأحكام</label>
-                                                                        <input name="confirm" type="checkbox" class="form-control" />
-                                                                    </div>
-
 
                                                                     <!-- Submit button -->
                                                                     <button type="submit"
@@ -576,7 +571,6 @@
                             <li><a target="new" href="{{ setting('site.instagram') }}"><i class="fab fa-instagram"></i></a></li>
                             <li><a target="new" href="{{ setting('site.twitter') }}"><i class="fab fa-twitter"></i></a></li>
                             <li><a target="new" href="{{ setting('site.facebook') }}"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="/search"><i class="fas fa-search"></i></a></li>
                         </ul>
                     </div>
                 </div>

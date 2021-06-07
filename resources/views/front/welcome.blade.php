@@ -354,7 +354,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="title-section">
-                            <h3 style="color: #fff;"> ﺷﺮﻛﺎﺀ ﻧﺠﺎﺡ </h3>
+                            <h3 style="color: #fff;"> احدث الاخبار </h3>
                         </div>
                         <div class="row">
 

@@ -142,17 +142,6 @@ class SiteController extends Controller
 
     
     
-    
-    public function search(Request $request){
-        if($request->search){
-            $s = $request->search;
-            $products = Product::where('name','like',"%$s%")->get();
-            return view('front.search', compact('products'));
-        }
-
-        return view('front.search');
-    }
-
 
     
   

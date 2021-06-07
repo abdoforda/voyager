@@ -1,10 +1,3 @@
-@php
-if(isset($dataTypeContent->status)){
-    $dataTypeContent->status = "old";
-    $dataTypeContent->save();
-}
-
-@endphp
 
 @extends('voyager::master')
 
@@ -49,9 +42,15 @@ if(isset($dataTypeContent->status)){
                 <div class="panel panel-bordered" style="padding-bottom:5px;">
                     <!-- form start abdoroda  -->
                     
-                    
+                    @php
+                        if(isset($dataType->readRows->status)){
+                            $dataType->status = "old";
+                            $dataType->save();
+                        }
+                        
+                    @endphp
                     @foreach($dataType->readRows as $row)
-                
+                    
                         @php
                         if ($dataTypeContent->{$row->field.'_read'}) {
                             $dataTypeContent->{$row->field} = $dataTypeContent->{$row->field.'_read'};

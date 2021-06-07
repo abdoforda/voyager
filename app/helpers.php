@@ -29,7 +29,6 @@ function state(){
     return "price";
 }
 
-
 function checknotification(){
 
     if(auth()->user()){
